@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JThief
+﻿namespace JThief
 {
     internal class AnimalFeedVendingMachine : VendingMachine
     {
-        public override string Item {
+        public override string Item
+        {
             get { return "a handful of animal feed"; }
         }
 

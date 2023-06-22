@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace JThief
 {
-    internal class Program
+    internal class Program 
     {
         static void Main()
         {
             VendingMachine vendingMachine = new AnimalFeedVendingMachine();
-            Console.WriteLine(vendingMachine.Dispense(2.00M));
+            Console.WriteLine(vendingMachine.Dispense(2.50M));
         }
     }
 }
