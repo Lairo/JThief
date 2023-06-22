@@ -8,8 +8,10 @@ namespace JThief
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            VendingMachine vendingMachine = new AnimalFeedVendingMachine();
+            Console.WriteLine(vendingMachine.Dispense(2.00M));
         }
     }
 }
